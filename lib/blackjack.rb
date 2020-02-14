@@ -79,5 +79,6 @@ end
 
 def runner
   welcome()
+  binding.pry 
 end
     
