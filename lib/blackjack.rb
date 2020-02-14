@@ -83,7 +83,7 @@ def runner
   welcome
   initial_round
   players_card_total = initial_round
-  
+  binding.pry 
   until players_card_total > 21
     hit?(players_card_total)
     players_card_total += hit?(players_card_total)
