@@ -79,7 +79,7 @@ end
 
 def runner
 
-
+welcome 
 initial_round
 players_card_total = initial_round
 
