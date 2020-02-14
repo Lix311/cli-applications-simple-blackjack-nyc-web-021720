@@ -1,7 +1,7 @@
 require 'pry'
 def welcome
   # code #welcome here
-  return "Welcome to the Blackjack Table"
+  puts "Welcome to the Blackjack Table"
 end
 
 def deal_card
@@ -78,7 +78,7 @@ end
 #####################################################
 
 def runner
-  welcome
+welcome
   
 end
     
