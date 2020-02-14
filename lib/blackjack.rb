@@ -84,8 +84,7 @@ players_card_total = initial_round
 
 
   until players_card_total > 21
-    hit?(players_card_total)
-    players_card_total += hit?(players_card_total)
+    players_card_total = hit?(players_card_total)
     display_card_total(players_card_total)
 
   end 
